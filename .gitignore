@@ -99,3 +99,17 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# data files
+data/2015/*.txt
+data/2015/*.zip
+data/2015/*.out
+
+
+data/2017/*.txt
+data/2017/*.zip
+data/2017/*.out
+
+!data/2015/README*.txt
+!data/2017/README*.txt
+
