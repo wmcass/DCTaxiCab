@@ -11,10 +11,10 @@ RCC Deep Learning Hackathon
 
 ## Time series plots of tweets by keyword
 
-images/trump_tweets.jpg
-images/source_tweets.jpg
-images/trump_and_source_tweets.jpg
-images/secretary_and_tilerson_tweets.jpg
+![Figure 1](images/trump_tweets.jpg)
+![Figure 2](images/source_tweets.jpg)
+![Figure 3](images/trump_and_source_tweets.jpg)
+![Figure 4](images/secretary_and_tillerson_tweets.jpg)
 
 ### Tweets that have both "Trump" and "Source" keywords on February 10th
 | Date | Text |
