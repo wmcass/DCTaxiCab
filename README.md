@@ -1,5 +1,5 @@
 # DCTaxiCab
-Deep learning on DC taxi cab data
 
-Website: https://wmcass.github.io/DCTaxiCab/
+Deep learning on DC taxi cab data.
 
+Project Site: https://wmcass.github.io/DCTaxiCab/
