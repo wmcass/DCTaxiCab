@@ -7,7 +7,7 @@ published: true
 
 ### William Cassidy and Walter Zhang
 
-RCC Deep Learning Hackathon 
+##### RCC Deep Learning Hackathon 
 
 {% include_relative Sample-Feb-2017-Tensorflow-Presentation.html %}
 
