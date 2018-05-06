@@ -9,7 +9,7 @@ published: true
 
 ##### RCC Deep Learning Hackathon 
 
-{% include_relative Sample-Feb-2017-Tensorflow-Presentation.html %}
+{% include Sample-Feb-2017-Tensorflow-Presentation.html %}
 
 ## Time series plots of tweets by keyword
 
