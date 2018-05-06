@@ -49,4 +49,3 @@ td{
 | 2017-02-10 22:00:00 | trump won't immediately appeal travel ban bloc... |
 | 2017-02-10 22:00:00 | trump dumped tillerson's deputy secretary of s... |
 | 2017-02-10 19:00:00 | trump dumped tillerson's deputy secretary of s... |
-
