@@ -17,6 +17,7 @@ RCC Deep Learning Hackathon
 ![Figure 4](images/secretary_and_tillerson_tweets.jpg)
 
 ### Tweets that have both "Trump" and "Source" keywords on February 10th
+
 | Date | Text |
 | :--- | :--: |
 | 2017-02-10 22:00:00 | trump won't immediately appeal travel ban bloc... |
