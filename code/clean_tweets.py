@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import re
 
-root = r'/project/rcc/deep_learning_hack/dc-taxi/'
+root = r'/project/rcc/deep_learning_hack/dc-taxi/DCTaxiCab/'
 
 handles = {
     'cnnbrk': 'CNN Breaking News',
@@ -36,21 +36,24 @@ handles = {
 tweets = pd.DataFrame()
 
 for handle in handles.keys():
-    df = pd.read_csv(root + '/data/twitter/raw/' + handle + '.csv',
-                     encoding='latin1')
-    df['source'] = handle
-    tweets = pd.concat([df, tweets])
+    try:
+        df = pd.read_csv(root + '/data/twitter/raw/' + handle + '.csv',
+                         encoding='latin1')
+        df['tweet_source'] = handles[handle]
+        tweets = pd.concat([df, tweets])
+    except:
+        pass
 
 tweets.text = tweets.text.str.lower()
 
 word_list = [
     'trump', 'white house', 'washington', 'washington post', 'kushner',
     'flynn', 'conway', 'source', 'leak', 'preibus', 'congress', 'russia',
-    'emails', 'hack', 'spicer'
+    'emails', 'hack', 'spicer', 'elliott', 'abrams', 'tillerson', 'secretary'
 ]
 
 for word in word_list:
     tweets[word] = tweets.text.str.contains(word)
 
-tweets.to_csv(root + '/data/twitter/intermediate/' + handle + '.csv')
+tweets.to_csv(root + '/data/twitter/intermediate/tweets.csv')
 
