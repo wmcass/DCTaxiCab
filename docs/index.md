@@ -18,6 +18,22 @@ RCC Deep Learning Hackathon
 
 ### Tweets that have both "Trump" and "Source" keywords on February 10th
 
+<style>
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #ff0000;
+}
+
+th{
+    border:2px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
+}
+</style>
+
 | Date | Text |
 | :--- | :--: |
 | 2017-02-10 22:00:00 | trump won't immediately appeal travel ban bloc... |
