@@ -5,11 +5,9 @@ author: William Cassidy and Walter Zhang
 published: true
 ---
 
-# DC Taxi Cab
+### William Cassidy and Walter Zhang
 
-## William Cassidy and Walter Zhang
-
-### RCC Deep Learning Hackathon 
+RCC Deep Learning Hackathon 
 
 {% include_relative Sample-Feb-2017-Tensorflow-Presentation.html %}
 
