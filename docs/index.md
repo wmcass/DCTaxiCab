@@ -9,6 +9,8 @@ published: true
 William Cassidy and Walter Zhang
 RCC Deep Learning Hackathon
 
+{% include_relative Sample-Feb-2017-Tensorflow-Presentation.html %}
+
 ## Time series plots of tweets by keyword
 
 ![Figure 1](images/trump_tweets.jpg)
