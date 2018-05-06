@@ -1,2 +1,5 @@
-theme: jekyll-theme-tactile
+theme: minima
 markdown: kramdown
+
+plugins:
+ - jekyll-seo-tag
